@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  nmap:
+    build: .
+    volumes:
+      - // YOU LOG $PATS$
+    stdin_open: true
+    tty: true
